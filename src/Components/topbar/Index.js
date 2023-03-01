@@ -151,6 +151,7 @@ const Index = (props) => {
         position="fixed"
         sx={{ zIndex: (theme) => theme.zIndex.drawer + 1 }}
         mb={2}
+        elevation={0}
       >
         <Toolbar sx={topToolbar}>
           <Box>
