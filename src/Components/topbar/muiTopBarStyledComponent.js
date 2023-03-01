@@ -28,31 +28,3 @@ export const topToolbarRightBox = {
     alignItems: "center",
   },
 };
-
-export const videoIcon = {
-  "&.MuiSvgIcon-root": {
-    margin: 1,
-    padding: 0.1,
-    fontSize: 35,
-    display: { xs: "none", sm: "flex" },
-    "&:hover": {
-      backgroundColor: "action.active",
-      color: "white",
-      borderRadius: "50px",
-    },
-  },
-};
-
-export const notificationBadge = {
-  "&.MuiBadge-root": {
-    margin: 1,
-    padding: 0.1,
-    fontSize: 35,
-    display: { xs: "none", sm: "flex" },
-    "&:hover": {
-      backgroundColor: "action.active",
-      color: "white",
-      borderRadius: "50px",
-    },
-  },
-};

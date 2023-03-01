@@ -41,10 +41,8 @@ import { data, sideDataSectionTwo, explore } from "../../Services/SidebarData";
 
 import {
   inputBox,
-  notificationBadge,
   topToolbar,
   topToolbarRightBox,
-  videoIcon,
 } from "./muiTopBarStyledComponent";
 import {
   sidebarDrawerPermanent,
@@ -163,6 +161,7 @@ const Index = (props) => {
             >
               <MenuIcon />
             </IconButton>
+
             <IconButton disableRipple>
               <YouTubeIcon
                 sx={{
@@ -201,10 +200,14 @@ const Index = (props) => {
           </Box>
 
           <Box sx={topToolbarRightBox}>
-            <VideoCallOutlinedIcon color="action" sx={videoIcon} />
-            <Badge badgeContent={4} color="error" sx={notificationBadge}>
-              <NotificationsNoneOutlinedIcon color="action" />
-            </Badge>
+            <IconButton>
+              <VideoCallOutlinedIcon color="action" />
+            </IconButton>
+            <IconButton>
+              <Badge badgeContent={4} color="error">
+                <NotificationsNoneOutlinedIcon color="action" />
+              </Badge>
+            </IconButton>
 
             <Menu
               id="menu-appbar"
@@ -262,13 +265,189 @@ const Index = (props) => {
       <Box
         component="main"
         sx={{
-          // flexGrow: 1,
+          flexGrow: 1,
           p: 3,
           width: { sm: `calc(100% - ${drawerWidth}px)` },
         }}
       >
         <Toolbar />
         <Grid container spacing={3} justifyContent="center">
+          <Grid item xs={12} lg={3} md={4}>
+            <Card sx={{ maxWidth: 345, borderRadius: 5 }}>
+              <CardMedia
+                sx={{ height: 140 }}
+                image="/static/images/cards/contemplative-reptile.jpg"
+                title="green iguana"
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  Lizard
+                </Typography>
+                <Typography variant="body2" color="text.secondary">
+                  Lizards are a widespread group of squamate reptiles, with over
+                  6,000 species, ranging across all continents except Antarctica
+                </Typography>
+              </CardContent>
+              <CardActions>
+                <Button size="small">Share</Button>
+                <Button size="small">Learn More</Button>
+              </CardActions>
+            </Card>
+          </Grid>
+          <Grid item xs={12} lg={3} md={4}>
+            <Card sx={{ maxWidth: 345, borderRadius: 5 }}>
+              <CardMedia
+                sx={{ height: 140 }}
+                image="/static/images/cards/contemplative-reptile.jpg"
+                title="green iguana"
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  Lizard
+                </Typography>
+                <Typography variant="body2" color="text.secondary">
+                  Lizards are a widespread group of squamate reptiles, with over
+                  6,000 species, ranging across all continents except Antarctica
+                </Typography>
+              </CardContent>
+              <CardActions>
+                <Button size="small">Share</Button>
+                <Button size="small">Learn More</Button>
+              </CardActions>
+            </Card>
+          </Grid>
+          <Grid item xs={12} lg={3} md={4}>
+            <Card sx={{ maxWidth: 345, borderRadius: 5 }}>
+              <CardMedia
+                sx={{ height: 140 }}
+                image="/static/images/cards/contemplative-reptile.jpg"
+                title="green iguana"
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  Lizard
+                </Typography>
+                <Typography variant="body2" color="text.secondary">
+                  Lizards are a widespread group of squamate reptiles, with over
+                  6,000 species, ranging across all continents except Antarctica
+                </Typography>
+              </CardContent>
+              <CardActions>
+                <Button size="small">Share</Button>
+                <Button size="small">Learn More</Button>
+              </CardActions>
+            </Card>
+          </Grid>
+          <Grid item xs={12} lg={3} md={4}>
+            <Card sx={{ maxWidth: 345, borderRadius: 5 }}>
+              <CardMedia
+                sx={{ height: 140 }}
+                image="/static/images/cards/contemplative-reptile.jpg"
+                title="green iguana"
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  Lizard
+                </Typography>
+                <Typography variant="body2" color="text.secondary">
+                  Lizards are a widespread group of squamate reptiles, with over
+                  6,000 species, ranging across all continents except Antarctica
+                </Typography>
+              </CardContent>
+              <CardActions>
+                <Button size="small">Share</Button>
+                <Button size="small">Learn More</Button>
+              </CardActions>
+            </Card>
+          </Grid>
+          <Grid item xs={12} lg={3} md={4}>
+            <Card sx={{ maxWidth: 345, borderRadius: 5 }}>
+              <CardMedia
+                sx={{ height: 140 }}
+                image="/static/images/cards/contemplative-reptile.jpg"
+                title="green iguana"
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  Lizard
+                </Typography>
+                <Typography variant="body2" color="text.secondary">
+                  Lizards are a widespread group of squamate reptiles, with over
+                  6,000 species, ranging across all continents except Antarctica
+                </Typography>
+              </CardContent>
+              <CardActions>
+                <Button size="small">Share</Button>
+                <Button size="small">Learn More</Button>
+              </CardActions>
+            </Card>
+          </Grid>
+          <Grid item xs={12} lg={3} md={4}>
+            <Card sx={{ maxWidth: 345, borderRadius: 5 }}>
+              <CardMedia
+                sx={{ height: 140 }}
+                image="/static/images/cards/contemplative-reptile.jpg"
+                title="green iguana"
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  Lizard
+                </Typography>
+                <Typography variant="body2" color="text.secondary">
+                  Lizards are a widespread group of squamate reptiles, with over
+                  6,000 species, ranging across all continents except Antarctica
+                </Typography>
+              </CardContent>
+              <CardActions>
+                <Button size="small">Share</Button>
+                <Button size="small">Learn More</Button>
+              </CardActions>
+            </Card>
+          </Grid>
+          <Grid item xs={12} lg={3} md={4}>
+            <Card sx={{ maxWidth: 345, borderRadius: 5 }}>
+              <CardMedia
+                sx={{ height: 140 }}
+                image="/static/images/cards/contemplative-reptile.jpg"
+                title="green iguana"
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  Lizard
+                </Typography>
+                <Typography variant="body2" color="text.secondary">
+                  Lizards are a widespread group of squamate reptiles, with over
+                  6,000 species, ranging across all continents except Antarctica
+                </Typography>
+              </CardContent>
+              <CardActions>
+                <Button size="small">Share</Button>
+                <Button size="small">Learn More</Button>
+              </CardActions>
+            </Card>
+          </Grid>
+          <Grid item xs={12} lg={3} md={4}>
+            <Card sx={{ maxWidth: 345, borderRadius: 5 }}>
+              <CardMedia
+                sx={{ height: 140 }}
+                image="/static/images/cards/contemplative-reptile.jpg"
+                title="green iguana"
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  Lizard
+                </Typography>
+                <Typography variant="body2" color="text.secondary">
+                  Lizards are a widespread group of squamate reptiles, with over
+                  6,000 species, ranging across all continents except Antarctica
+                </Typography>
+              </CardContent>
+              <CardActions>
+                <Button size="small">Share</Button>
+                <Button size="small">Learn More</Button>
+              </CardActions>
+            </Card>
+          </Grid>
           <Grid item xs={12} lg={3} md={4}>
             <Card sx={{ maxWidth: 345, borderRadius: 5 }}>
               <CardMedia
